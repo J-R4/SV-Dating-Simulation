@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+</head>
+<body>
+    <%- include('./partials/navBar.ejs') %> 
+    <div>
+        <h1>Welcome to Stardew-Valley Dating Simulation, <%= data.name ? data.name : 'Good People' %> </h1>
+    </div>
+    <div>
+        <p>
+            Stardew Valley Dating Simulation
+
+            In this App you can explore the love simulation with Stardew Valley Characters
+
+            There are 12 Characters with their own personality and faces.
+
+            Are you ready to explore and find the one ?
+
+            Go Register or Login now !
+            (the button is at the top right corner of the page)
+        </p>
+    </div>
+</body>
+</html>

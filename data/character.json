@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Abigail",
+        "gender": "woman",
+        "like": "Ice Cream",
+        "dislike": "Trash"
+    },
+    {
+        "name": "Emily",
+        "gender": "woman",
+        "like": "Ice Cream",
+        "dislike": "Trash"
+    },
+    {
+        "name": "Haley",
+        "gender": "woman",
+        "like": "Ice Cream",
+        "dislike": "Trash"
+    },
+    {
+        "name": "Leah",
+        "gender": "woman",
+        "like": "Ice Cream",
+        "dislike": "Trash"
+    },
+    {
+        "name": "Maru",
+        "gender": "woman",
+        "like": "Ice Cream",
+        "dislike": "Trash"
+    },
+    {
+        "name": "Penny",
+        "gender": "woman",
+        "like": "Ice Cream",
+        "dislike": "Trash"
+    },
+    {
+        "name": "Alex",
+        "gender": "man",
+        "like": "Ice Cream",
+        "dislike": "Trash"
+    },
+    {
+        "name": "Elliot",
+        "gender": "man",
+        "like": "Ice Cream",
+        "dislike": "Trash"
+    },
+    {
+        "name": "Harvey",
+        "gender": "man",
+        "like": "Ice Cream",
+        "dislike": "Trash"
+    },
+    {
+        "name": "Sam",
+        "gender": "man",
+        "like": "Ice Cream",
+        "dislike": "Trash"
+    },
+    {
+        "name": "Sebastian",
+        "gender": "man",
+        "like": "Ice Cream",
+        "dislike": "Trash"
+    },
+    {
+        "name": "Shane",
+        "gender": "man",
+        "like": "Ice Cream",
+        "dislike": "Trash"
+    }
+]
