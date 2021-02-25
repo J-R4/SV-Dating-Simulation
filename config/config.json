@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "love",
+    "database": "pair-project-SVDS",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "love",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+        "use_env_variable":"postgres://bwabivnfrpqycm:df89058bf0a8569c3a2274928bb60ad535482fff6551e3272cee97075ff234db@ec2-54-90-55-211.compute-1.amazonaws.com:5432/d1nvscv8ggdf9a",
+        "ssl": true,
+        "dialect": "postgres",
+        "protocol": "postgres",
+        "dialectOptions": {
+          "ssl": {
+            "require": true,
+            "rejectUnauthorized": false
+          }
+        }
+      }
+}

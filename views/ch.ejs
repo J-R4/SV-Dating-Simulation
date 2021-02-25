@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="simple.css" />
+    <title>Characters</title>
+</head>
+<body id="mainContentArea">
+    <div>
+        <nav id="linkGroup">
+            <%- include('./partials/navBar.ejs') %> 
+        </nav>
+    </div>
+    <div id ="blueBox">
+        <h1>
+            The Characters
+        </h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Hearts</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% ch.forEach(ch => { %>
+                <tr>
+                    <td> <img src="<%= ch.pic  %>" alt="<%= ch.name %>" width="100" height="100">  </td>
+                    <td><%= ch.properCall()%> </td>
+                    <td><%= ch.gender %> </td>
+                    <% for (let i = 0; i < rel.length; i++) { %>
+                        <% if(ch.id === rel[i].CharacterId && usr === rel[i].UserId) {%>
+                            <td> <%= rel[i].hearts %> </td>
+                            <td> <%= rel[i].status %> </td>
+                        <% } %> 
+                    <% } %> 
+                    <td> 
+                        <button>
+                        <a href="/character/give/<%= ch.id %>" onclick="return confirm('Are you sure?')">Give Item</a> 
+                        </button>
+                    </td>
+                </tr>
+                <% }); %> 
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

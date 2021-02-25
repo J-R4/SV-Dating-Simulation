@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="simple.css" />
+    <title>Profile Page</title>
+</head>
+<body id="mainContentArea">
+    <div>
+        <nav id="linkGroup">
+            <%- include('./partials/navBar.ejs') %> 
+        </nav>
+    </div>
+    <div id="title">
+        <h1>Welcome back, <%= name %> </h1>
+    </div>
+    <div id ="blueBox">
+        <div>
+            <table border="1">
+                <thead>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Gender</th>
+                    <th>Age</th>
+                </thead>
+                <tbody>
+                    <td><%= usr.name %> </td>
+                    <td><%= usr.email %> </td>
+                    <td><%= usr.gender %> </td>
+                    <td><%= usr.age %> </td>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <button>
+                <a href="/delete/<%= usr.email %> ">Delete this Account</a>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
