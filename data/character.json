@@ -3,72 +3,84 @@
         "name": "Abigail",
         "gender": "woman",
         "like": "Ice Cream",
-        "dislike": "Trash"
+        "dislike": "Trash",
+        "pic": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/stardew-valley/9/9b/Abigail-Portrait_192px.png"
     },
     {
         "name": "Emily",
         "gender": "woman",
         "like": "Ice Cream",
-        "dislike": "Trash"
+        "dislike": "Trash",
+        "pic": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/stardew-valley/6/63/20160222180858%21Emily.png?width=325"
     },
     {
         "name": "Haley",
         "gender": "woman",
         "like": "Ice Cream",
-        "dislike": "Trash"
+        "dislike": "Trash",
+        "pic": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/stardew-valley/1/1b/Haley.png?width=325"
     },
     {
         "name": "Leah",
         "gender": "woman",
         "like": "Ice Cream",
-        "dislike": "Trash"
+        "dislike": "Trash",
+        "pic": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/stardew-valley/9/9d/20160222181157%21Leah.png?width=325"
     },
     {
         "name": "Maru",
         "gender": "woman",
         "like": "Ice Cream",
-        "dislike": "Trash"
+        "dislike": "Trash",
+        "pic": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/stardew-valley/d/db/Maru_%281%29.png?width=325"
     },
     {
         "name": "Penny",
         "gender": "woman",
         "like": "Ice Cream",
-        "dislike": "Trash"
+        "dislike": "Trash",
+        "pic": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/stardew-valley/4/42/20160222181342%21Penny.png?width=325"
     },
     {
         "name": "Alex",
         "gender": "man",
         "like": "Ice Cream",
-        "dislike": "Trash"
+        "dislike": "Trash",
+        "pic": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/stardew-valley/0/04/Alex.png?width=325"
     },
     {
         "name": "Elliot",
         "gender": "man",
         "like": "Ice Cream",
-        "dislike": "Trash"
+        "dislike": "Trash",
+        "pic": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/stardew-valley/f/fd/Elliott_Neutral.png?width=325"
     },
     {
         "name": "Harvey",
         "gender": "man",
         "like": "Ice Cream",
-        "dislike": "Trash"
+        "dislike": "Trash",
+        "pic": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/stardew-valley/0/07/120px-Harvey.png?width=325"
     },
     {
         "name": "Sam",
         "gender": "man",
         "like": "Ice Cream",
-        "dislike": "Trash"
+        "dislike": "Trash",
+        "pic": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/stardew-valley/6/68/120px-Sam_Neutral.png?width=325"
     },
     {
         "name": "Sebastian",
         "gender": "man",
         "like": "Ice Cream",
-        "dislike": "Trash"
+        "dislike": "Trash",
+        "pic": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/stardew-valley/2/2c/120px-Sebastian_Smile.png?width=325"
     },
     {
         "name": "Shane",
         "gender": "man",
         "like": "Ice Cream",
-        "dislike": "Trash"
+        "dislike": "Trash",
+        "pic": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/stardew-valley/0/06/120px-Shane_Pleased.png?width=325"
     }
 ]

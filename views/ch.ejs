@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characters</title>
+</head>
+<body>
+    <%- include('./partials/navBar.ejs') %> 
+    <div>
+        <h1>
+            The Characters
+        </h1>
+    </div> 
+    <div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Hearts</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% ch.forEach(ch => { %>
+                <tr>
+                    <td> <img src="<%= ch.pic  %>" alt="<%= ch.name %>" width="100" height="100">  </td>
+                    <td><%= ch.properCall()%> </td>
+                    <td><%= ch.gender %> </td>
+                    <td></td>
+                    <td></td>
+                    <td> 
+                        <button>
+                        <a href="/character/giveIC/<%= ch.id %>/<%= usr %>" onclick="return confirm('<%= ch.likeRespond %>')">Give Ice Cream</a> 
+                        </button>
+                        <button>
+                        <a href="/character/giveT/<%= ch.id %>/<%= usr %>"onclick="return confirm('<%= ch.dislikeRespond %>')">Give Trash</a> 
+                        </button>
+                    </td>
+                </tr>
+                <% }); %> 
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

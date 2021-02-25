@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/J-R4/SV-Dating-Simulation#readme",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "pg": "^8.5.1",
     "sequelize": "^6.5.0"
   },
