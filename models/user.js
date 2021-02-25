@@ -1,7 +1,5 @@
 'use strict';
 
-const {encryptThis} = require('../middleware/bcrypt.js')
-
 const {
   Model
 } = require('sequelize');
@@ -23,10 +21,6 @@ module.exports = (sequelize, DataTypes) => {
     name: {
       type: DataTypes.STRING,
       validate: {
-        isAlpha: {
-          args: true,
-          msg: `Name can only contain letter`
-        },
         notEmpty: {
           args: true,
           msg: `Name cannot be empty !`
@@ -69,9 +63,9 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       validate: {
         notNull: {
-        args: true,
-        msg: `age cannot be empty !`
-      },
+          args: true,
+          msg: `age cannot be empty !`
+        },
         min: {
           args: 17,
           msg: `You must be 17 or above to using this app`
@@ -81,10 +75,6 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'User',
-  })
-  User.addHook("beforeCreate", (user) => {
-      let hash = encryptThis(user.password)
-      user.password = hash
-    })
+  });
   return User;
 };

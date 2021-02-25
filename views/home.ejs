@@ -2,32 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="simple.css" />
     <title>Home page</title>
 </head>
-<body>
-    <nav>
-        <a href="/login">Login</a>
-        <a href="/register">Register</a>
-    </nav>
-    <div>
-        <h1>Welcome to Stardew-Valley Dating Simulation, <%= data.name ? data.name : 'Good People' %> </h1>
+<body id="mainContentArea">
+    <div id="title">
+        Stardew-Valley Dating Simulation
     </div>
-    <div>
-        <p>
-            In this App you can explore the love simulation with Stardew Valley Characters
-        </p>
-        <p>
-            There are 12 Characters with their own personality and faces.
-        </p>
-        <p>
-            Are you ready to explore and find the one ?
-        </p>
-        <p>
-            Go Register or Login now !
-        </p>
-            (the button is at the top left corner of the page)
+    <nav id="linkGroup">
+        <button>
+            <a href="/login">Login</a>
+        </button>
+        <button>
+            <a href="/register">Register</a>
+        </button>
+    </nav>
+    <div id ="blueBox">
+        <div class="pageContent">
+            <div>
+                <h2>Love to see you here, <%= data ? data : 'Good People' %> :) </h2>
+            </div>
+            <p>
+                In this App you can explore the love simulation with Stardew Valley Characters
+            </p>
+            <p>
+                There are 12 Characters with their own personality and faces.
+            </p>
+            <p>
+                Are you ready to explore and find the one ?
+            </p>
+            <p>
+                Go Register or Login now !
+            </p>
+                (the button is at the top left corner of the page)
+                <br>
+                <a href="/logout">Logout</a>
+        </div>
+    </div>
+    <div id="footer">
+        <a href="/">Joshua Fanera</a> -
+        <a href="/">Ghazan Athar Krisna</a>
     </div>
 </body>
 </html>

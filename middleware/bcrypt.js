@@ -1,3 +1,5 @@
+const bcrypt = require('bcrypt');
+
 function encryptThis(pass, salt = 10) {
     const hash = bcrypt.hashSync(pass, salt)
     return hash

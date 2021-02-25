@@ -3,6 +3,7 @@ const app = express()
 const port = 3000
 const session = require('express-session');
 const router = require('./routes/index.js')
+const path = require('path');
 
 app.set('view engine', 'ejs')
 
@@ -15,8 +16,7 @@ app.use(
         saveUninitialized: true,
     })
 );
-
-app.use('/', router)
+app.use('/', router, express.static(path.join(__dirname, 'views')));
 
 app.listen(port, () => {
     console.log(`SVDS app is listening on https://localhost:${port}`)

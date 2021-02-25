@@ -25,11 +25,11 @@ module.exports = (sequelize, DataTypes) => {
     }
 
     static likeRespond() {
-      return `Thank YOU :)`
+      return `Do you wanna give this to me ? Thank YOU :)`
     }
 
     static dislikeRespond() {
-      return `@#$$ &^!`
+      return `Do you wanna give this to me ? @#$$ &^!`
     }
   };
   Character.init({

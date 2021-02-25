@@ -21,6 +21,14 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Relationship',
-  });
+  }),
+    Relationship.addHook('beforeCreate', (relationship, options) => {
+      if (!relationship.hearts) {
+        relationship.hearts = 0
+      }
+      if (!relationship.status) {
+        relationship.status = 'Stranger'
+      }
+    })
   return Relationship;
 };
