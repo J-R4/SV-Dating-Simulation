@@ -23,7 +23,7 @@ class UsController {
             age: +body.age
         }
 
-        let transporter = nodemailer.createTransport(se)
+        let transporter = nodemailer.createTransport(se) // isi di helpers nodemailer
 
         let receiveMail = {
             from: 'josfanbot@gmail.com',

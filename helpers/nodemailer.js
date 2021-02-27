@@ -1,8 +1,8 @@
 let se = {
             service: 'gmail',
             auth: {
-                user: 'josfanbot@gmail.com',
-                pass: 'josjos1234'
+                user: '', // isi disini
+                pass: '' // isi disini
             }
         }
         
